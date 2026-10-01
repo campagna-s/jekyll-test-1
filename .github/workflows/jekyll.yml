@@ -56,7 +56,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://campagna-s.github.io"
+      url: "https://campagna-s.github.io/jekyll-test-1"
     runs-on: ubuntu-latest
     needs: build
     steps:
